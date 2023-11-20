@@ -24,7 +24,11 @@ this my project to upskill and grow my skill
 
 explore,sorting data ,filtering data.all that use for analys and gain insight from data set.
 
+
+![image](https://github.com/ayubiiwazaki/Pandas/assets/139350745/2165c216-2c64-40ee-945d-66d7e8458d84)
 ```bash
-# Example command or code snippet
-python your_script.py
-# Pandas
+df2 = df.groupby("Continent")['1970 Population',
+       '1980 Population', '1990 Population', '2000 Population',
+       '2010 Population', '2015 Population', '2020 Population',
+       '2022 Population'].mean().sort_values (by="2022 Population",ascending=False)
+
